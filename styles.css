@@ -3,7 +3,7 @@ body {
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(0, 68, 128);
     border-radius: 10px;
     height: 400px;
 }
