@@ -1,0 +1,26 @@
+# 1. Clona el repositorio (si no lo tienes local)
+git clone https://github.com/usuario/repositorio.git
+
+# 2. Entra a la carpeta del repositorio
+cd repositorio
+
+# 3. Verifica que estás en la rama principal
+git checkout main  # o master, según el repositorio
+
+# 4. Trae los últimos cambios
+git pull origin main  # o master
+
+# 5. Crea y cambia a una nueva rama
+git checkout -b nombre-de-tu-rama
+
+# 6. Haz tus cambios y guárdalos
+# (edita archivos como desees)
+
+# 7. Agrega los cambios
+git add .
+
+# 8. Haz el commit
+git commit -m "Descripción de los cambios"
+
+# 9. Sube tu rama a GitHub
+git push origin nombre-de-tu-rama
