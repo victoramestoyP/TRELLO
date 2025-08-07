@@ -2,10 +2,12 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    display: block;      
+    margin: 0 auto;   
 }
 
 .link-button {
