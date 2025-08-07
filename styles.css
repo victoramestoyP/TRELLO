@@ -2,16 +2,21 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
+h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 20px 0 30px;
+    background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
 .image{
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
-}
-
-.main{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .link-button {
