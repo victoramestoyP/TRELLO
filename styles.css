@@ -8,6 +8,12 @@ body {
     height: 400px;
 }
 
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .link-button {
     text-decoration: none;
     color: black;
