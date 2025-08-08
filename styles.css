@@ -15,6 +15,7 @@ body {
 
 h1{
     transition: all 0.3s ease;
+    font-size: 3rem;
     
 
 }
@@ -22,19 +23,4 @@ h1:hover{
     letter-spacing: 1px;
     text-shadow: 0.1rem 0.1rem #000 ;
     font-weight: 500;
-}
-
-.link-button {
-    transition: all 0.1s ease;
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
-}
-.link-button:hover{
-    letter-spacing: 1px;
-
 }
