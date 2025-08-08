@@ -1,26 +1,6 @@
-body {
-    background-color: rgb(255, 255, 165);
-}
-
-.image{
-    transition: all 0.3s ease;
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
-}
-.image:hover{
-    border-radius: 30px;
-    height: 425px;
-}
 
 h1{
-    transition: all 0.3s ease;
     font-size: 3rem;
     
 
-}
-h1:hover{
-    letter-spacing: 1px;
-    text-shadow: 0.1rem 0.1rem #000 ;
-    font-weight: 500;
 }
